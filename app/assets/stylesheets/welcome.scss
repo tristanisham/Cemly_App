@@ -1,6 +1,11 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .cont {
     display: grid;
     grid-template-columns: [sidebar] 30% [cb-1] 35% [cb-2] 35%;
@@ -9,7 +14,11 @@
     grid-column-start: sidebar;
     grid-column-end: 2;
     grid-row-start: row-start;
-    grid-row-end: auto;
+    grid-row-end: 3;
+    color: white;
+    background-color: rgba(44, 58, 71,1.0);
+    height: 100%;
+    padding: 1em;
 }
 
 }
